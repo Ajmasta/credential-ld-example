@@ -17,6 +17,6 @@ import { setupAgent } from './setup';
   const verified = await verifyLDCredential(credential, agent)
   console.log(`Credential verified=${verified}`)
   const verifiedEthrCredential = await verifyLDCredential(credentialEthr, agent)
-  console.log(`ETHR Credential verified=${verified}`)
+  console.log(`ETHR Credential verified=${verifiedEthrCredential}`)
 
 })();
